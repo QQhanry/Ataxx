@@ -11,6 +11,8 @@ tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
 /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
 tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
 /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
+tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
+/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
 tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
 /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
 tp4_automoc.dir/moc_Parametres_XGH5IRM66PRRG7.cpp
@@ -27,6 +29,14 @@ QtCore/qmetatype.h
 /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
 ../../src/ChooseName.h
 /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
+../../src/Joueur.h
+/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -55,6 +65,8 @@ iostream
 -
 QGraphicsPixmapItem
 -
+QMessageBox
+-
 AffichageJeu.h
 /mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
 
@@ -69,16 +81,28 @@ QList
 -
 QRect
 -
-ChooseName.h
-/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+QEvent
+-
+QSignalMapper
+-
+plateau.h
+/mnt/c/Users/quent/CLionProjects/test/src/plateau.h
+game.h
+/mnt/c/Users/quent/CLionProjects/test/src/game.h
+Joueur.h
+/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
 
 /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp
 QtWidgets/QPushButton
+-
+iostream
 -
 ChooseName.h
 /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
 
 /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+AffichageJeu.h
+/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
 QDialog
 -
 QString
@@ -88,6 +112,14 @@ QLabel
 QLineEdit
 -
 QHBoxLayout
+-
+
+/mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp
+Joueur.h
+/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
+
+/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
+QtWidgets/QPushButton
 -
 
 /mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp
@@ -117,8 +149,8 @@ QVBoxLayout
 -
 Parametres.h
 /mnt/c/Users/quent/CLionProjects/test/src/Parametres.h
-AffichageJeu.h
-/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
+ChooseName.h
+/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
 
 /mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp
 QHBoxLayout
@@ -153,9 +185,15 @@ pion.h
 /mnt/c/Users/quent/CLionProjects/test/src/main.cpp
 MainScene.h
 /mnt/c/Users/quent/CLionProjects/test/src/MainScene.h
+game.h
+/mnt/c/Users/quent/CLionProjects/test/src/game.h
 QApplication
 -
 QTime
+-
+iostream
+-
+cstring
 -
 
 /mnt/c/Users/quent/CLionProjects/test/src/pion.cpp
@@ -186,6 +224,10 @@ string.h
 pion.h
 /mnt/c/Users/quent/CLionProjects/test/src/pion.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
+qcoreevent.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 qlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
@@ -197,6 +239,10 @@ qrect.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QRectF
 qrect.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSignalMapper
+qsignalmapper.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsignalmapper.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 qstring.h
@@ -722,6 +768,10 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 utility
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsignalmapper.h
+QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
@@ -1306,6 +1356,10 @@ qlabel.h
 qlineedit.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
@@ -1438,6 +1492,10 @@ QtGui/qtextcursor.h
 QtCore/qstring.h
 -
 QtCore/qmargins.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h

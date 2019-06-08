@@ -12,7 +12,7 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include "Parametres.h"
-#include "AffichageJeu.h"
+#include "ChooseName.h"
 
 
 class MainScene : public QLabel {
@@ -24,7 +24,7 @@ private :
     QPushButton *button_configure;
     QPushButton *button_play;
     Parametres *fenetre;
-    AffichageJeu *jeu;
+  //  AffichageJeu *jeu;
     ChooseName *name;
 
 public:

@@ -5,6 +5,7 @@
 #ifndef TP4_CHOOSENAME_H
 #define TP4_CHOOSENAME_H
 
+#include "AffichageJeu.h"
 #include <QDialog>
 #include <QString>
 #include <QLabel>
@@ -23,21 +24,21 @@ private:
     QLabel *nameJ2;
     QLineEdit *Text2;
     QPushButton * button;
+    AffichageJeu *jeu;
+    QString *nj1;
+    QString *nj2;
 
 public:
     ChooseName(QWidget* parent = nullptr);
     ~ChooseName();
-  /*  void setNameJ1(QString* nameJ1);
-    QString* getNameJ1();
-    void setNameJ2(QString* nameJ2);
-    QString* getNameJ2();*/
 
 
 public slots:
-    void slotclick(QWidget* mainWidget);
+    void slotclickok();
 
 signals:
     void clicked();
+
 };
 
 

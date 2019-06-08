@@ -3,14 +3,15 @@
 //
 
 #include <QtWidgets/QPushButton>
+#include <iostream>
 #include "ChooseName.h"
 
 ChooseName::ChooseName(QWidget *parent)
         : QDialog(parent){
-    this->setWindowTitle("Ataxx-Configure");
+    this->setWindowTitle("Ataxx-player's name");
 
 
-    QWidget *mainWidget = new QWidget();
+
     QVBoxLayout *mainLayout = new QVBoxLayout();
     QHBoxLayout *Layout1 = new QHBoxLayout();
     QHBoxLayout *Layout2 = new QHBoxLayout();
@@ -26,7 +27,7 @@ ChooseName::ChooseName(QWidget *parent)
     Layout3->addWidget(nameJ2);
     this->Text2 = new QLineEdit();
     Layout3->addWidget(Text2);
-     this->button = new QPushButton("OK");
+    this->button = new QPushButton("OK");
 
 
     mainLayout->addLayout(Layout1);
@@ -36,25 +37,18 @@ ChooseName::ChooseName(QWidget *parent)
     this->setLayout(mainLayout);
 
     setModal(true);
-
-    connect(button,SIGNAL(clicked()),this, SLOT(slotclick(mainWidget)));
+    jeu = new AffichageJeu(nullptr);
+    connect(button,SIGNAL(clicked()),this, SLOT(slotclickok()));
 }
 ChooseName::~ChooseName(){
 
 }
-/*void ChooseName::setNameJ1(QString* nameJ1){
 
+void ChooseName::slotclickok(){
+   /* *nj1 = Text1->text();
+    jeu->setName1(nj1);*/
+    this->close();
+
+    jeu->show();
 }
-QString* ChooseName::getNameJ1(){
 
-}
-void ChooseName::setNameJ2(QString* nameJ2){
-
-}
-QString* ChooseName::getNameJ2(){
-
-}*/
-
-void ChooseName::slotclick(QWidget* mainWidget){
-    mainWidget->close();
-}

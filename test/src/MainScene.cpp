@@ -32,7 +32,7 @@ MainScene::MainScene() {
 
     fenetre = new Parametres;
 
-    jeu = new AffichageJeu;
+  //  jeu = new AffichageJeu;
     name = new ChooseName;
 
     connect(button_configure,SIGNAL(clicked()),this, SLOT(slotclickconfigure()));
@@ -44,7 +44,7 @@ MainScene::MainScene() {
 
 
 void MainScene::slotclickplay(){
-    jeu->show();
+   // jeu->show();
     name->show();
 }
 

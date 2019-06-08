@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tp4.dir/src/pion.cpp.o"
   "CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o"
   "CMakeFiles/tp4.dir/src/ChooseName.cpp.o"
+  "CMakeFiles/tp4.dir/src/Joueur.cpp.o"
   "CMakeFiles/tp4.dir/tp4_automoc.cpp.o"
   "tp4.pdb"
   "tp4"

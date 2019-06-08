@@ -190,6 +190,33 @@ src/ChooseName.cpp.s:
 	$(MAKE) -f CMakeFiles/tp4.dir/build.make CMakeFiles/tp4.dir/src/ChooseName.cpp.s
 .PHONY : src/ChooseName.cpp.s
 
+src/Joueur.o: src/Joueur.cpp.o
+
+.PHONY : src/Joueur.o
+
+# target to build an object file
+src/Joueur.cpp.o:
+	$(MAKE) -f CMakeFiles/tp4.dir/build.make CMakeFiles/tp4.dir/src/Joueur.cpp.o
+.PHONY : src/Joueur.cpp.o
+
+src/Joueur.i: src/Joueur.cpp.i
+
+.PHONY : src/Joueur.i
+
+# target to preprocess a source file
+src/Joueur.cpp.i:
+	$(MAKE) -f CMakeFiles/tp4.dir/build.make CMakeFiles/tp4.dir/src/Joueur.cpp.i
+.PHONY : src/Joueur.cpp.i
+
+src/Joueur.s: src/Joueur.cpp.s
+
+.PHONY : src/Joueur.s
+
+# target to generate assembly for a file
+src/Joueur.cpp.s:
+	$(MAKE) -f CMakeFiles/tp4.dir/build.make CMakeFiles/tp4.dir/src/Joueur.cpp.s
+.PHONY : src/Joueur.cpp.s
+
 src/MainScene.o: src/MainScene.cpp.o
 
 .PHONY : src/MainScene.o
@@ -395,6 +422,9 @@ help:
 	@echo "... src/ChooseName.o"
 	@echo "... src/ChooseName.i"
 	@echo "... src/ChooseName.s"
+	@echo "... src/Joueur.o"
+	@echo "... src/Joueur.i"
+	@echo "... src/Joueur.s"
 	@echo "... src/MainScene.o"
 	@echo "... src/MainScene.i"
 	@echo "... src/MainScene.s"

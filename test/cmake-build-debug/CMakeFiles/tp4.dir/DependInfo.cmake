@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o"
   "/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/ChooseName.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/Joueur.cpp.o"
   "/mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/MainScene.cpp.o"
   "/mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/Parametres.cpp.o"
   "/mnt/c/Users/quent/CLionProjects/test/src/game.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/game.cpp.o"

@@ -13,15 +13,11 @@ plateau::plateau(){ //constructeur
 }
 
 void plateau::initGrille(int grille[7][7]){ //setters getters
-    joueur1 B1(0,0,"blue");
-    joueur1 B2(6,6,"blue");
-    joueur2 R1(6,0,"red");
-    joueur2 R2(0,6,"red");
+    joueur1 B(0,0,"blue");
+    joueur2 R(6,6,"red");
 
-    this->B1=B1;
-    this->B2=B2;
-    this->R1=R1;
-    this->R2=R2;
+    this->B=B;
+    this->R=R;
 
     for (int i = 0; i < 7; ++i) {
         for (int j = 0; j < 7; ++j) {
@@ -31,11 +27,9 @@ void plateau::initGrille(int grille[7][7]){ //setters getters
         }
     }
 
-    this->grille[B1.getX()][B1.getY()]=1; //initialisation des pions du joueur 1
-    this->grille[B2.getX()][B2.getY()]=1;
+    this->grille[B.getX()][B.getY()]=1; //initialisation des pions du joueur 1
 
-    this->grille[R1.getX()][R1.getY()]=2; //initialisation des pions du joueur 2
-    this->grille[R2.getX()][R2.getY()]=2;
+    this->grille[R.getX()][R.getY()]=2; //initialisation des pions du joueur 2
 
 }
 
@@ -106,6 +100,7 @@ void plateau::deplacementPion(int NumeroJoueur){
     this->LigneDepart = LigneDepart - 1;
     this->LigneArrivee = LigneArrivee - 1;
 
+
     if(verificationDistanceRegles(getColonneDepart(), getColonneArrivee(), getLigneDepart(), getLigneArrivee())==1){ //vérification que le déplacement respecte les règles du jeu
         if(this->grille[getLigneArrivee()][getColonneArrivee()]==0 && this->grille[getLigneDepart()][getColonneDepart()]!=0){ //vérification de l'arrivée sur une case vide de pion
 
@@ -156,7 +151,7 @@ int plateau::determinationTypeDeplacement(int ColonneDepart, int ColonneArrivee,
 }
 
 
-void plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJoueur){
+int plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJoueur){
     this->ColonneArrivee=ColonneArrivee;
     this->LigneArrivee=LigneArrivee;
 
@@ -166,9 +161,10 @@ void plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int Numero
                 if(this->ColonneArrivee + i < 0 || this->ColonneArrivee + i >= 7 || this->LigneArrivee + j < 0 || this->LigneArrivee >= 7)
                     continue;
 
-                if(this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] != 0)
-                    this->grille[this->LigneArrivee + j][this->ColonneArrivee + i]=1;
-
+                if(this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] != 0) {
+                    this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] = 1;
+                    return 1;
+                }
             }
         }
     }else if(NumeroJoueur==2){
@@ -177,8 +173,10 @@ void plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int Numero
                 if(this->ColonneArrivee + i < 0 || this->ColonneArrivee + i >= 7 || this->LigneArrivee + j < 0 || this->LigneArrivee >= 7)
                     continue;
 
-                if(this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] != 0)
-                    this->grille[this->LigneArrivee + j][this->ColonneArrivee + i]=2;
+                if(this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] != 0) {
+                    this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] = 2;
+                    return 2;
+                }
             }
         }
     }

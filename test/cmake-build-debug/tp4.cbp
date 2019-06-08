@@ -125,6 +125,12 @@
 		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h">
 			<Option target="tp4"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp">
+			<Option target="tp4"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h">
+			<Option target="tp4"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp">
 			<Option target="tp4"/>
 		</Unit>
