@@ -12,7 +12,7 @@ Nous y avons crée une ambiance assez mystérieuse mais détendu, cela semblait 
 
 #Usage
 Il faut savoir qu'une version graphique et terminal ont été réalisés. Celle-ci peuvent être jouée indépendamment grâce à l'argument "--graphicmode" ou "--terminalmode" (respectivement la version graphique et version terminal).
-Le nom de l'exécutable est "tp4".
+Le nom de l'exécutable est "tp4". De plus, pour une meilleure expérience de jeu, évitez de redimmensionner les fenêtres.
 
 #Support
 Si vous avez besoin d'une quelconque information ou aide, n'hésitez pas à me contacter à l'adresse suivante: quentin.hanry@isen-ouest.yncrea.fr.
