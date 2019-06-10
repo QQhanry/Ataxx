@@ -9,7 +9,7 @@ Joueur::Joueur(QWidget *parent):QPushButton(parent) {
     setNumJoueur(0);
 }
 
-void Joueur::setNumJoueur(int num) {
+void Joueur::setNumJoueur(int num) {    //Le numéro du joueur permet de différencier les différents types de cases.
     this->numJoueur = num;
 }
 

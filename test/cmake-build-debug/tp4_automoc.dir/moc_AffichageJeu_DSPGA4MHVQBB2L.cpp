@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_AffichageJeu_t {
-    QByteArrayData data[8];
-    char stringdata0[80];
+    QByteArrayData data[10];
+    char stringdata0[112];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,13 +34,17 @@ QT_MOC_LITERAL(1, 13, 7), // "clicked"
 QT_MOC_LITERAL(2, 21, 0), // ""
 QT_MOC_LITERAL(3, 22, 17), // "slotclicktryagain"
 QT_MOC_LITERAL(4, 40, 13), // "slotclickexit"
-QT_MOC_LITERAL(5, 54, 10), // "pionchoice"
-QT_MOC_LITERAL(6, 65, 3), // "num"
-QT_MOC_LITERAL(7, 69, 10) // "movechoice"
+QT_MOC_LITERAL(5, 54, 15), // "slotclickinfoj1"
+QT_MOC_LITERAL(6, 70, 15), // "slotclickinfoj2"
+QT_MOC_LITERAL(7, 86, 10), // "pionchoice"
+QT_MOC_LITERAL(8, 97, 3), // "num"
+QT_MOC_LITERAL(9, 101, 10) // "movechoice"
 
     },
     "AffichageJeu\0clicked\0\0slotclicktryagain\0"
-    "slotclickexit\0pionchoice\0num\0movechoice"
+    "slotclickexit\0slotclickinfoj1\0"
+    "slotclickinfoj2\0pionchoice\0num\0"
+    "movechoice"
 };
 #undef QT_MOC_LITERAL
 
@@ -50,7 +54,7 @@ static const uint qt_meta_data_AffichageJeu[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -58,13 +62,15 @@ static const uint qt_meta_data_AffichageJeu[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   39,    2, 0x06 /* Public */,
+       1,    0,   49,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    0,   40,    2, 0x0a /* Public */,
-       4,    0,   41,    2, 0x0a /* Public */,
-       5,    1,   42,    2, 0x0a /* Public */,
-       7,    1,   45,    2, 0x0a /* Public */,
+       3,    0,   50,    2, 0x0a /* Public */,
+       4,    0,   51,    2, 0x0a /* Public */,
+       5,    0,   52,    2, 0x0a /* Public */,
+       6,    0,   53,    2, 0x0a /* Public */,
+       7,    1,   54,    2, 0x0a /* Public */,
+       9,    1,   57,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -72,8 +78,10 @@ static const uint qt_meta_data_AffichageJeu[] = {
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,    6,
-    QMetaType::Void, QMetaType::Int,    6,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    8,
+    QMetaType::Void, QMetaType::Int,    8,
 
        0        // eod
 };
@@ -87,8 +95,10 @@ void AffichageJeu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 0: _t->clicked(); break;
         case 1: _t->slotclicktryagain(); break;
         case 2: _t->slotclickexit(); break;
-        case 3: _t->pionchoice((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 4: _t->movechoice((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 3: _t->slotclickinfoj1(); break;
+        case 4: _t->slotclickinfoj2(); break;
+        case 5: _t->pionchoice((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 6: _t->movechoice((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -129,13 +139,13 @@ int AffichageJeu::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 5;
+        _id -= 7;
     }
     return _id;
 }

@@ -17,7 +17,7 @@ Parametres::Parametres(QWidget *parent)
     QHBoxLayout *Layout3 = new QHBoxLayout();
 
     //Fenêtre paramètre à définir
-   /*this->ipAddress= new QLabel("Adresse ip");
+   this->ipAddress= new QLabel("Adresse ip");
     Layout1->addWidget(ipAddress);
     this->Text1 = new QLineEdit();
     Layout1->addWidget(Text1);
@@ -31,7 +31,7 @@ Parametres::Parametres(QWidget *parent)
     Layout3->addWidget(password);
     this->Text3 = new QLineEdit();
     Layout3->addWidget(Text3);
-    this->button = new QPushButton("OK");*/
+    this->button = new QPushButton("OK");
 
 
     mainLayout->addLayout(Layout1);

@@ -16,8 +16,6 @@
 class ChooseName : public QDialog{
 Q_OBJECT
 private:
-  /*  QString* nameJ1;
-    QString* nameJ2;*/
 
     QLabel *nameJ1;
     QLineEdit *Text1;
@@ -25,8 +23,8 @@ private:
     QLineEdit *Text2;
     QPushButton * button;
     AffichageJeu *jeu;
-    QString *nj1;
-    QString *nj2;
+    QString nj1;
+    QString nj2;
 
 public:
     ChooseName(QWidget* parent = nullptr);

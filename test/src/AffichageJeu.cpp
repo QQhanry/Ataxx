@@ -9,8 +9,8 @@
 #include "AffichageJeu.h"
 
 
-AffichageJeu::AffichageJeu(QWidget *parent):QLabel(parent) {
-    this->setWindowTitle("Ataxx-Game");
+AffichageJeu::AffichageJeu(QWidget *parent, QString nameJoueur1, QString nameJoueur2):QLabel(parent) {
+    this->setWindowTitle("Ataxx-Game");                     //Création de la fenêtre de jeu
 
     this->setMinimumWidth(1000);
     this->setMinimumHeight(600);
@@ -22,10 +22,11 @@ AffichageJeu::AffichageJeu(QWidget *parent):QLabel(parent) {
     this->setScaledContents(true);
     this->adjustSize();
 
+
     exit= new QPushButton("Exit", this);
     recommencer= new QPushButton("Retry", this);
-    joueur1 = new QPushButton("Joueur 1", this);
-    joueur2 = new QPushButton("Joueur 2", this);
+    joueur1 = new QPushButton(nameJoueur1, this);
+    joueur2 = new QPushButton(nameJoueur2, this);
     setButtons(exit,recommencer, joueur1, joueur2);
 
     moteur = new plateau;
@@ -53,8 +54,10 @@ AffichageJeu::AffichageJeu(QWidget *parent):QLabel(parent) {
     this->setLayout(grille);
     connect(exit,SIGNAL(clicked()),this, SLOT(slotclickexit()));
     connect(recommencer,SIGNAL(clicked()),this, SLOT(slotclicktryagain()));
+    connect(joueur1,SIGNAL(clicked()),this,SLOT(slotclickinfoj1()));
+    connect(joueur2,SIGNAL(clicked()),this,SLOT(slotclickinfoj2()));
 
-   // playOn();
+
 
 }
 
@@ -136,6 +139,43 @@ void AffichageJeu::slotclicktryagain() {    //gestion du bouton retry
     setPlateau(caseVide, caseJoueur1, caseJoueur2);
 }
 
+void AffichageJeu::slotclickinfoj1() {              //Affichage des informations relatives aux îons du joueur 1
+    int counter = 0;
+    QString texte;
+    for (int i = 0; i < 49; ++i) {
+        if(this->square[i]->getNumJoueur()==1)
+            counter++;
+    }
+
+    if(counter == 0){
+        texte = "Vous n'avez plus de pions.";
+    }else if(counter == 1){
+        texte = "Vous avez " + QString::number(counter) + " pion.";
+    }else{
+        texte = "Vous avez " + QString::number(counter) + " pions.";
+    }
+    QMessageBox::information(this,"Informations Joueur 1",texte);
+
+}
+
+void AffichageJeu::slotclickinfoj2() {          // Affichage des informations relative aux pions du joueur 2
+    int counter = 0;
+    QString texte;
+    for (int i = 0; i < 49; ++i) {
+        if(this->square[i]->getNumJoueur()==2)
+            counter++;
+    }
+
+    if(counter == 0){
+        texte = "Vous n'avez plus de pions.";
+    }else if(counter == 1){
+        texte = "Vous avez " + QString::number(counter) + " pion.";
+    }else{
+        texte = "Vous avez " + QString::number(counter) + " pions.";
+    }
+    QMessageBox::information(this,"Informations Joueur 2",texte);
+}
+
 void AffichageJeu::pionchoice(int num){     //gestion du clic sur un des pions
     QString texte;
 
@@ -184,7 +224,7 @@ void AffichageJeu::movechoice(int num) {        //gestion du déplacement des pi
     QPixmap caseJoueur2("Carre_rouge.jpg");
 
 
-    if(moteur->verificationDistanceRegles(this->ColonneDepart,this->ColonneArrivee,this->LigneDepart,this->LigneArrivee)==1 && this->square[num]->getNumJoueur()==0){
+    if(moteur->verificationDistanceRegles(this->ColonneDepart,this->ColonneArrivee,this->LigneDepart,this->LigneArrivee)==1 && this->square[num]->getNumJoueur()==0){   //vérification des règles et du type de déplacement
 
         if(moteur->determinationTypeDeplacement(this->ColonneDepart,this->ColonneArrivee,this->LigneDepart,this->LigneArrivee)==0 && this->square[num]->getNumJoueur()==0){
 
@@ -196,8 +236,8 @@ void AffichageJeu::movechoice(int num) {        //gestion du déplacement des pi
                 this->square[numA]->setNumJoueur(2);
             }
             this->square[numD]->setFixedSize(70,55);
+            contamination();
              if(aQuiLeTour==1){aQuiLeTour++;}else if(aQuiLeTour==2){aQuiLeTour--;}
-            //contamination();
             reInitNum();
 
         }else if(moteur->determinationTypeDeplacement(this->ColonneDepart,this->ColonneArrivee,this->LigneDepart,this->LigneArrivee)==1 && this->square[num]->getNumJoueur()==0){
@@ -211,9 +251,10 @@ void AffichageJeu::movechoice(int num) {        //gestion du déplacement des pi
                 this->square[numD]->setIcon(caseVide);
                 this->square[numA]->setNumJoueur(2);
             }
+            this->square[numD]->setNumJoueur(0);
             this->square[numD]->setFixedSize(70,55);
+            contamination();
             if(aQuiLeTour==1){aQuiLeTour++;}else if(aQuiLeTour==2){aQuiLeTour--;}
-            //contamination();
             reInitNum();
         }
     }
@@ -263,21 +304,66 @@ void AffichageJeu::determinePosD(int num){
 }   //détermination au départ du pion
 
 void AffichageJeu::reInitNum() {
-    this->numA=0;
+    this->numA=this->numD;
     this->numD=0;
 }
 
 void AffichageJeu::contamination(){
-    if(moteur->contaminationPion(this->ColonneArrivee, this->LigneArrivee,this->square[numD]->getNumJoueur())==1){
-        for (int i = -1; i <= 1; ++i) {
-            for (int j = -1; j <= 1; ++j) {
+    QPixmap caseVide("Carre_gris.jpg");
+    QPixmap caseJoueur1("Carre_bleu.png");
+    QPixmap caseJoueur2("Carre_rouge.jpg");
+    int counter1 = 0;
+    int counter2=0;
+    QString texte;
 
-                if(this->square[numA+j+i]->getNumJoueur() != 0 || this->square[numA+j+i]->getNumJoueur() != 1 )
-                    this->square[numA+j+i]->setNumJoueur(1);
-
+    for (int i = -1; i < 1; ++i) {                                      //contamination
+        if(this->aQuiLeTour == 1){
+            if(this->square[numA+i]->getNumJoueur() == 2){
+                std::cout<<"numA+i";
+                this->square[numA+i]->setNumJoueur(this->aQuiLeTour);
+                this->square[numA+i]->setIcon(caseJoueur1);
+            }else if(this->square[numA +7 +i]->getNumJoueur() == 2 ){
+                std::cout<<"numA+7+i";
+                this->square[numA +7 +i]->setNumJoueur(this->aQuiLeTour);
+                this->square[numA+i+7]->setIcon(caseJoueur1);
+            }else if(this->square[numA -7 +i]->getNumJoueur() == 2){
+                std::cout<<"numA -7 +i";
+                this->square[numA -7 +i]->setNumJoueur(this->aQuiLeTour);
+                this->square[numA+i-7]->setIcon(caseJoueur1);
+            }
+        }else if(this->aQuiLeTour == 2){
+            if(this->square[numA+i]->getNumJoueur()==1){
+                std::cout<<"numA+i";
+                this->square[numA+i]->setNumJoueur(this->aQuiLeTour);
+                this->square[numA+i]->setIcon(caseJoueur2);
+            }else if(this->square[numA +7 +i]->getNumJoueur() == 1 ){
+                std::cout<<"numA+7+i";
+                this->square[numA +7 +i]->setNumJoueur(this->aQuiLeTour);
+                this->square[numA+i+7]->setIcon(caseJoueur2);
+            }else if(this->square[numA -7 +i]->getNumJoueur() == 1){
+                std::cout<<"numA -7 +i";
+                this->square[numA -7 +i]->setNumJoueur(this->aQuiLeTour);
+                this->square[numA+i-7]->setIcon(caseJoueur2);
             }
         }
-    }//else if(moteur->contaminationPion(this->ColonneArrivee, this->LigneArrivee,this->square[numD]->getNumJoueur())==2){
 
-    //}
+    }
+
+
+    for (int j = 0; j < 49; ++j) {
+        if(this->square[j]->getNumJoueur()==1){                 //gestion de victoire
+            counter1++;
+        }else if(this->square[j]->getNumJoueur()==2){
+            counter2++;
+        }
+    }
+
+    if(counter1==0){                                            //Affichage de victoire
+        texte= "Joueur 2 a gagné !!";
+        QMessageBox::information(this,"Information",texte);
+    }else if(counter2==0){
+        texte= "Joueur 1 a gagné !!";
+        QMessageBox::information(this,"Information",texte);
+    }
 }
+

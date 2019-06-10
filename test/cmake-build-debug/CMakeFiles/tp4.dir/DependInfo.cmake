@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/ChooseName.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/Joueur.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/MainScene.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/Parametres.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/game.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/game.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/main.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/main.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/pion.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/pion.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/src/plateau.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/src/plateau.cpp.o"
-  "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.cpp" "/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/tp4_automoc.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/ChooseName.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/Joueur.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/MainScene.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/Parametres.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/game.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/game.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/main.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/main.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/pion.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/pion.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/src/plateau.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/src/plateau.cpp.o"
+  "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.cpp" "/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/tp4_automoc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

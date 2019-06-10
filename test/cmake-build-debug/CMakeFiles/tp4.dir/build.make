@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/quent/CLionProjects/test
+CMAKE_SOURCE_DIR = /mnt/c/Users/quent/CLionProjects/test1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tp4.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/tp4.dir/flags.make
 
 CMakeFiles/tp4.dir/src/main.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tp4.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/main.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tp4.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/main.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/main.cpp
 
 CMakeFiles/tp4.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/main.cpp > CMakeFiles/tp4.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/main.cpp > CMakeFiles/tp4.dir/src/main.cpp.i
 
 CMakeFiles/tp4.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/main.cpp -o CMakeFiles/tp4.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/main.cpp -o CMakeFiles/tp4.dir/src/main.cpp.s
 
 CMakeFiles/tp4.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/tp4.dir/src/main.cpp.o.provides.build: CMakeFiles/tp4.dir/src/main.cp
 
 CMakeFiles/tp4.dir/src/Parametres.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/Parametres.cpp.o: ../src/Parametres.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tp4.dir/src/Parametres.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/Parametres.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tp4.dir/src/Parametres.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/Parametres.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/Parametres.cpp
 
 CMakeFiles/tp4.dir/src/Parametres.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/Parametres.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp > CMakeFiles/tp4.dir/src/Parametres.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/Parametres.cpp > CMakeFiles/tp4.dir/src/Parametres.cpp.i
 
 CMakeFiles/tp4.dir/src/Parametres.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/Parametres.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp -o CMakeFiles/tp4.dir/src/Parametres.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/Parametres.cpp -o CMakeFiles/tp4.dir/src/Parametres.cpp.s
 
 CMakeFiles/tp4.dir/src/Parametres.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/tp4.dir/src/Parametres.cpp.o.provides.build: CMakeFiles/tp4.dir/src/P
 
 CMakeFiles/tp4.dir/src/MainScene.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/MainScene.cpp.o: ../src/MainScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tp4.dir/src/MainScene.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/MainScene.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tp4.dir/src/MainScene.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/MainScene.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/MainScene.cpp
 
 CMakeFiles/tp4.dir/src/MainScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/MainScene.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp > CMakeFiles/tp4.dir/src/MainScene.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/MainScene.cpp > CMakeFiles/tp4.dir/src/MainScene.cpp.i
 
 CMakeFiles/tp4.dir/src/MainScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/MainScene.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp -o CMakeFiles/tp4.dir/src/MainScene.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/MainScene.cpp -o CMakeFiles/tp4.dir/src/MainScene.cpp.s
 
 CMakeFiles/tp4.dir/src/MainScene.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/tp4.dir/src/MainScene.cpp.o.provides.build: CMakeFiles/tp4.dir/src/Ma
 
 CMakeFiles/tp4.dir/src/game.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/game.cpp.o: ../src/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tp4.dir/src/game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/game.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tp4.dir/src/game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/game.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/game.cpp
 
 CMakeFiles/tp4.dir/src/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/game.cpp > CMakeFiles/tp4.dir/src/game.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/game.cpp > CMakeFiles/tp4.dir/src/game.cpp.i
 
 CMakeFiles/tp4.dir/src/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/game.cpp -o CMakeFiles/tp4.dir/src/game.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/game.cpp -o CMakeFiles/tp4.dir/src/game.cpp.s
 
 CMakeFiles/tp4.dir/src/game.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/tp4.dir/src/game.cpp.o.provides.build: CMakeFiles/tp4.dir/src/game.cp
 
 CMakeFiles/tp4.dir/src/plateau.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/plateau.cpp.o: ../src/plateau.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tp4.dir/src/plateau.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/plateau.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/plateau.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tp4.dir/src/plateau.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/plateau.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/plateau.cpp
 
 CMakeFiles/tp4.dir/src/plateau.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/plateau.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/plateau.cpp > CMakeFiles/tp4.dir/src/plateau.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/plateau.cpp > CMakeFiles/tp4.dir/src/plateau.cpp.i
 
 CMakeFiles/tp4.dir/src/plateau.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/plateau.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/plateau.cpp -o CMakeFiles/tp4.dir/src/plateau.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/plateau.cpp -o CMakeFiles/tp4.dir/src/plateau.cpp.s
 
 CMakeFiles/tp4.dir/src/plateau.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/tp4.dir/src/plateau.cpp.o.provides.build: CMakeFiles/tp4.dir/src/plat
 
 CMakeFiles/tp4.dir/src/pion.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/pion.cpp.o: ../src/pion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tp4.dir/src/pion.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/pion.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/pion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tp4.dir/src/pion.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/pion.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/pion.cpp
 
 CMakeFiles/tp4.dir/src/pion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/pion.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/pion.cpp > CMakeFiles/tp4.dir/src/pion.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/pion.cpp > CMakeFiles/tp4.dir/src/pion.cpp.i
 
 CMakeFiles/tp4.dir/src/pion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/pion.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/pion.cpp -o CMakeFiles/tp4.dir/src/pion.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/pion.cpp -o CMakeFiles/tp4.dir/src/pion.cpp.s
 
 CMakeFiles/tp4.dir/src/pion.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/tp4.dir/src/pion.cpp.o.provides.build: CMakeFiles/tp4.dir/src/pion.cp
 
 CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o: ../src/AffichageJeu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.cpp
 
 CMakeFiles/tp4.dir/src/AffichageJeu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/AffichageJeu.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp > CMakeFiles/tp4.dir/src/AffichageJeu.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.cpp > CMakeFiles/tp4.dir/src/AffichageJeu.cpp.i
 
 CMakeFiles/tp4.dir/src/AffichageJeu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/AffichageJeu.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp -o CMakeFiles/tp4.dir/src/AffichageJeu.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.cpp -o CMakeFiles/tp4.dir/src/AffichageJeu.cpp.s
 
 CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/tp4.dir/src/AffichageJeu.cpp.o.provides.build: CMakeFiles/tp4.dir/src
 
 CMakeFiles/tp4.dir/src/ChooseName.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/ChooseName.cpp.o: ../src/ChooseName.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tp4.dir/src/ChooseName.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/ChooseName.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tp4.dir/src/ChooseName.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/ChooseName.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.cpp
 
 CMakeFiles/tp4.dir/src/ChooseName.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/ChooseName.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp > CMakeFiles/tp4.dir/src/ChooseName.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.cpp > CMakeFiles/tp4.dir/src/ChooseName.cpp.i
 
 CMakeFiles/tp4.dir/src/ChooseName.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/ChooseName.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp -o CMakeFiles/tp4.dir/src/ChooseName.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.cpp -o CMakeFiles/tp4.dir/src/ChooseName.cpp.s
 
 CMakeFiles/tp4.dir/src/ChooseName.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/tp4.dir/src/ChooseName.cpp.o.provides.build: CMakeFiles/tp4.dir/src/C
 
 CMakeFiles/tp4.dir/src/Joueur.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/src/Joueur.cpp.o: ../src/Joueur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tp4.dir/src/Joueur.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/Joueur.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tp4.dir/src/Joueur.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/src/Joueur.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/src/Joueur.cpp
 
 CMakeFiles/tp4.dir/src/Joueur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/src/Joueur.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp > CMakeFiles/tp4.dir/src/Joueur.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/src/Joueur.cpp > CMakeFiles/tp4.dir/src/Joueur.cpp.i
 
 CMakeFiles/tp4.dir/src/Joueur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/src/Joueur.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp -o CMakeFiles/tp4.dir/src/Joueur.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/src/Joueur.cpp -o CMakeFiles/tp4.dir/src/Joueur.cpp.s
 
 CMakeFiles/tp4.dir/src/Joueur.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/tp4.dir/src/Joueur.cpp.o.provides.build: CMakeFiles/tp4.dir/src/Joueu
 
 CMakeFiles/tp4.dir/tp4_automoc.cpp.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/tp4_automoc.cpp.o: tp4_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tp4.dir/tp4_automoc.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/tp4_automoc.cpp.o -c /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tp4.dir/tp4_automoc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp4.dir/tp4_automoc.cpp.o -c /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.cpp
 
 CMakeFiles/tp4.dir/tp4_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp4.dir/tp4_automoc.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.cpp > CMakeFiles/tp4.dir/tp4_automoc.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.cpp > CMakeFiles/tp4.dir/tp4_automoc.cpp.i
 
 CMakeFiles/tp4.dir/tp4_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp4.dir/tp4_automoc.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.cpp -o CMakeFiles/tp4.dir/tp4_automoc.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.cpp -o CMakeFiles/tp4.dir/tp4_automoc.cpp.s
 
 CMakeFiles/tp4.dir/tp4_automoc.cpp.o.requires:
 
@@ -328,7 +328,7 @@ tp4: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.7.1
 tp4: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.7.1
 tp4: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.7.1
 tp4: CMakeFiles/tp4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tp4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tp4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tp4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -354,6 +354,6 @@ CMakeFiles/tp4.dir/clean:
 .PHONY : CMakeFiles/tp4.dir/clean
 
 CMakeFiles/tp4.dir/depend:
-	cd /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/quent/CLionProjects/test /mnt/c/Users/quent/CLionProjects/test /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/quent/CLionProjects/test1 /mnt/c/Users/quent/CLionProjects/test1 /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tp4.dir/depend
 

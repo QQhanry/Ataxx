@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/quent/CLionProjects/test
+CMAKE_SOURCE_DIR = /mnt/c/Users/quent/CLionProjects/test1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug
 
 # Utility rule file for tp4_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug
 include CMakeFiles/tp4_automoc.dir/progress.make
 
 CMakeFiles/tp4_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target tp4"
-	/usr/bin/cmake -E cmake_autogen /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4_automoc.dir/ Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target tp4"
+	/usr/bin/cmake -E cmake_autogen /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4_automoc.dir/ Debug
 
 tp4_automoc: CMakeFiles/tp4_automoc
 tp4_automoc: CMakeFiles/tp4_automoc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/tp4_automoc.dir/clean:
 .PHONY : CMakeFiles/tp4_automoc.dir/clean
 
 CMakeFiles/tp4_automoc.dir/depend:
-	cd /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/quent/CLionProjects/test /mnt/c/Users/quent/CLionProjects/test /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/CMakeFiles/tp4_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/quent/CLionProjects/test1 /mnt/c/Users/quent/CLionProjects/test1 /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug /mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/CMakeFiles/tp4_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tp4_automoc.dir/depend
 

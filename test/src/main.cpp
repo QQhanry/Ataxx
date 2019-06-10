@@ -9,7 +9,7 @@
 int main(int argc, char *argv[]) {
 
 
-    if(strncmp(argv[1],"--graphicmode",13) == 0){
+    if(strncmp(argv[1],"--graphicmode",13) == 0){       // Choix du mode de jeu
         QApplication application(argc, argv);
         MainScene menu;
         return application.exec();

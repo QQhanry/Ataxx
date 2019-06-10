@@ -45,7 +45,7 @@ public:
     int NumeroJoueur(int NumeroJoueur);
     int verificationDistanceRegles(int ColonneDepart, int ColonneArrivee, int LigneDepart, int LigneArrivee);
     int determinationTypeDeplacement(int ColonneDepart, int ColonneArrivee, int LigneDepart, int LigneArrivee);
-    int contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJoueur);
+    void contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJoueur);
     void contaminationPionJ2(int ColonneArrivee, int LigneArrivee);
     int endGame();
 };

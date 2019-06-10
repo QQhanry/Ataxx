@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tp4">
-				<Option output="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -62,15 +62,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tp4/fast">
-				<Option output="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -93,114 +93,114 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tp4_automoc">
-				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4_automoc"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp4_automoc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/MainScene.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/Parametres.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/game.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/game.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/game.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/game.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/main.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/main.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/pion.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/pion.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/pion.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/pion.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/plateau.cpp">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/plateau.cpp">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/src/plateau.h">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/src/plateau.h">
 			<Option target="tp4"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/quent/CLionProjects/test/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/mnt/c/Users/quent/CLionProjects/test1/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>

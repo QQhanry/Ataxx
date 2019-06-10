@@ -132,7 +132,7 @@ void plateau::deplacementPion(int NumeroJoueur){
 }
 
 
-int plateau::verificationDistanceRegles(int ColonneDepart, int ColonneArrivee, int LigneDepart, int LigneArrivee){
+int plateau::verificationDistanceRegles(int ColonneDepart, int ColonneArrivee, int LigneDepart, int LigneArrivee){      // Vérification de la distance entre la case de départ et d'arrivée
 
     if(abs(ColonneArrivee-ColonneDepart)<=2 && abs(LigneArrivee-LigneDepart)<=2){
         return 1;
@@ -142,7 +142,7 @@ int plateau::verificationDistanceRegles(int ColonneDepart, int ColonneArrivee, i
 }
 
 
-int plateau::determinationTypeDeplacement(int ColonneDepart, int ColonneArrivee, int LigneDepart, int LigneArrivee){
+int plateau::determinationTypeDeplacement(int ColonneDepart, int ColonneArrivee, int LigneDepart, int LigneArrivee){    //Vérification du type de déplacement
     if(abs(ColonneArrivee-ColonneDepart)==2 || abs(LigneArrivee-LigneDepart)==2){
         return 1;
     }else if(abs(ColonneArrivee-ColonneDepart)==1 || abs(LigneArrivee-LigneDepart)==1){
@@ -151,11 +151,11 @@ int plateau::determinationTypeDeplacement(int ColonneDepart, int ColonneArrivee,
 }
 
 
-int plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJoueur){
+void plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJoueur){
     this->ColonneArrivee=ColonneArrivee;
     this->LigneArrivee=LigneArrivee;
 
-    if(NumeroJoueur==1){
+    if(NumeroJoueur==1){                                                                                                //conditions sur la contamination des pions
         for (int i = -1; i <= 1; ++i) {
             for (int j = -1; j <= 1; ++j) {
                 if(this->ColonneArrivee + i < 0 || this->ColonneArrivee + i >= 7 || this->LigneArrivee + j < 0 || this->LigneArrivee >= 7)
@@ -163,7 +163,7 @@ int plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJ
 
                 if(this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] != 0) {
                     this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] = 1;
-                    return 1;
+
                 }
             }
         }
@@ -175,7 +175,6 @@ int plateau::contaminationPion(int ColonneArrivee, int LigneArrivee, int NumeroJ
 
                 if(this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] != 0) {
                     this->grille[this->LigneArrivee + j][this->ColonneArrivee + i] = 2;
-                    return 2;
                 }
             }
         }
@@ -187,7 +186,7 @@ int plateau::endGame(){
     int compteur1=0;
     int compteur2=0;
 
-    for (int i = 0; i < 7; ++i) {
+    for (int i = 0; i < 7; ++i) {               //Comptage du nombre de pions de chaque joueurs
         for (int j = 0; j < 7; ++j) {
 
             if(this->grille[i][j]==1){
@@ -196,10 +195,10 @@ int plateau::endGame(){
                 compteur2++;
             }
         }
-
     }
 
-    if(compteur1==0 || compteur2==0){
+
+    if(compteur1==0 || compteur2==0){           //Détermination de vainqueur
         std::cout<<"La partie est finie"<<std::endl;
         if(compteur1==0){
             std::cout<<"Joueur 2 a gagné"<<std::endl;

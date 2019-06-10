@@ -4,11 +4,13 @@
 
 
 MainScene::MainScene() {
-    menu = new QLabel;
+    menu = new QLabel;                  //définition de la page d'accueil
     menu->setWindowTitle("Ataxx-Accueil");
     menu->setPixmap(QPixmap("decor.png"));
     menu->setScaledContents(true);
     menu->adjustSize();
+
+
 
 
     button_play= new QPushButton("Play !", menu);
@@ -18,7 +20,7 @@ MainScene::MainScene() {
     button_play->setGeometry(595,350,100,50);
 
 
-    button_configure = new QPushButton(menu);
+  /*  button_configure = new QPushButton(menu);                 // Création d'un bouton pour les paramètres mais manque de temps pour implémanter les fonctionnalités de paramétrage
     QPixmap pixmap("parametres.png");
     QIcon ButtonIcon(pixmap);
     QSize icon;
@@ -28,7 +30,7 @@ MainScene::MainScene() {
     button_configure->setIconSize(icon);
     button_configure->setGeometry(593,203,100,50);
 
-    button_configure->setFlat(true);
+    button_configure->setFlat(true);*/
 
     fenetre = new Parametres;
 

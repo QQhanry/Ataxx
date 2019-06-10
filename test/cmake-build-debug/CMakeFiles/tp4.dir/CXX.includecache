@@ -6,59 +6,59 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.cpp
 tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
 tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
 tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
 tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
 tp4_automoc.dir/moc_Parametres_XGH5IRM66PRRG7.cpp
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_Parametres_XGH5IRM66PRRG7.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_Parametres_XGH5IRM66PRRG7.cpp
 
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_AffichageJeu_DSPGA4MHVQBB2L.cpp
 ../../src/AffichageJeu.h
-/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
+/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_ChooseName_4U7QXCNUIPRZ5Y.cpp
 ../../src/ChooseName.h
-/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_Joueur_P3435BWL2KRW2X.cpp
 ../../src/Joueur.h
-/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_MainScene_WBU3JUL43IRLFL.cpp
 ../../src/MainScene.h
-/mnt/c/Users/quent/CLionProjects/test/src/MainScene.h
+/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/mnt/c/Users/quent/CLionProjects/test/cmake-build-debug/tp4_automoc.dir/moc_Parametres_XGH5IRM66PRRG7.cpp
+/mnt/c/Users/quent/CLionProjects/test1/cmake-build-debug/tp4_automoc.dir/moc_Parametres_XGH5IRM66PRRG7.cpp
 ../../src/Parametres.h
-/mnt/c/Users/quent/CLionProjects/test/src/Parametres.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.cpp
 QPushButton
 -
 iostream
@@ -68,9 +68,9 @@ QGraphicsPixmapItem
 QMessageBox
 -
 AffichageJeu.h
-/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
+/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
+/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.h
 QDialog
 -
 QLabel
@@ -86,23 +86,25 @@ QEvent
 QSignalMapper
 -
 plateau.h
-/mnt/c/Users/quent/CLionProjects/test/src/plateau.h
+/mnt/c/Users/quent/CLionProjects/test1/src/plateau.h
 game.h
-/mnt/c/Users/quent/CLionProjects/test/src/game.h
+/mnt/c/Users/quent/CLionProjects/test1/src/game.h
 Joueur.h
-/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.cpp
 QtWidgets/QPushButton
 -
 iostream
 -
+QtWidgets/QMessageBox
+-
 ChooseName.h
-/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.h
 AffichageJeu.h
-/mnt/c/Users/quent/CLionProjects/test/src/AffichageJeu.h
+/mnt/c/Users/quent/CLionProjects/test1/src/AffichageJeu.h
 QDialog
 -
 QString
@@ -114,19 +116,19 @@ QLineEdit
 QHBoxLayout
 -
 
-/mnt/c/Users/quent/CLionProjects/test/src/Joueur.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.cpp
 Joueur.h
-/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/Joueur.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Joueur.h
 QtWidgets/QPushButton
 -
 
-/mnt/c/Users/quent/CLionProjects/test/src/MainScene.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.cpp
 MainScene.h
-/mnt/c/Users/quent/CLionProjects/test/src/MainScene.h
+/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/MainScene.h
+/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.h
 QGraphicsScene
 -
 QPixmap
@@ -148,19 +150,19 @@ QHBoxLayout
 QVBoxLayout
 -
 Parametres.h
-/mnt/c/Users/quent/CLionProjects/test/src/Parametres.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.h
 ChooseName.h
-/mnt/c/Users/quent/CLionProjects/test/src/ChooseName.h
+/mnt/c/Users/quent/CLionProjects/test1/src/ChooseName.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/Parametres.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.cpp
 QHBoxLayout
 -
 QVBoxLayout
 -
 Parametres.h
-/mnt/c/Users/quent/CLionProjects/test/src/Parametres.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/Parametres.h
+/mnt/c/Users/quent/CLionProjects/test1/src/Parametres.h
 QDialog
 -
 QLabel
@@ -170,23 +172,23 @@ QLineEdit
 QPushButton
 -
 
-/mnt/c/Users/quent/CLionProjects/test/src/game.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/game.cpp
 game.h
-/mnt/c/Users/quent/CLionProjects/test/src/game.h
+/mnt/c/Users/quent/CLionProjects/test1/src/game.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/game.h
+/mnt/c/Users/quent/CLionProjects/test1/src/game.h
 iostream
 -
 plateau.h
-/mnt/c/Users/quent/CLionProjects/test/src/plateau.h
+/mnt/c/Users/quent/CLionProjects/test1/src/plateau.h
 pion.h
-/mnt/c/Users/quent/CLionProjects/test/src/pion.h
+/mnt/c/Users/quent/CLionProjects/test1/src/pion.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/main.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/main.cpp
 MainScene.h
-/mnt/c/Users/quent/CLionProjects/test/src/MainScene.h
+/mnt/c/Users/quent/CLionProjects/test1/src/MainScene.h
 game.h
-/mnt/c/Users/quent/CLionProjects/test/src/game.h
+/mnt/c/Users/quent/CLionProjects/test1/src/game.h
 QApplication
 -
 QTime
@@ -196,11 +198,11 @@ iostream
 cstring
 -
 
-/mnt/c/Users/quent/CLionProjects/test/src/pion.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/pion.cpp
 pion.h
-/mnt/c/Users/quent/CLionProjects/test/src/pion.h
+/mnt/c/Users/quent/CLionProjects/test1/src/pion.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/pion.h
+/mnt/c/Users/quent/CLionProjects/test1/src/pion.h
 iostream
 -
 stdio.h
@@ -208,13 +210,13 @@ stdio.h
 string.h
 -
 
-/mnt/c/Users/quent/CLionProjects/test/src/plateau.cpp
+/mnt/c/Users/quent/CLionProjects/test1/src/plateau.cpp
 plateau.h
-/mnt/c/Users/quent/CLionProjects/test/src/plateau.h
+/mnt/c/Users/quent/CLionProjects/test1/src/plateau.h
 pion.h
-/mnt/c/Users/quent/CLionProjects/test/src/pion.h
+/mnt/c/Users/quent/CLionProjects/test1/src/pion.h
 
-/mnt/c/Users/quent/CLionProjects/test/src/plateau.h
+/mnt/c/Users/quent/CLionProjects/test1/src/plateau.h
 iostream
 -
 stdio.h
@@ -222,7 +224,7 @@ stdio.h
 string.h
 -
 pion.h
-/mnt/c/Users/quent/CLionProjects/test/src/pion.h
+/mnt/c/Users/quent/CLionProjects/test1/src/pion.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 qcoreevent.h

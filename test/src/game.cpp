@@ -29,12 +29,12 @@ void game::Menu() {
                 std::cout<<"Joueur 1"<<std::endl;
                 this->Tableau.afficherGrille();
                 this->Tableau.deplacementPion(1);
-                //this->Tableau.contaminationPion(Tableau.getColonneArrivee(),Tableau.getLigneArrivee(),1);
+                this->Tableau.contaminationPion(Tableau.getColonneArrivee(),Tableau.getLigneArrivee(),1);
 
                 std::cout<< "Joueur 2" << std::endl;
                 this->Tableau.afficherGrille();
                 this->Tableau.deplacementPion(2);
-                //this->Tableau.contaminationPion(Tableau.getColonneArrivee(),Tableau.getLigneArrivee(),2);
+                this->Tableau.contaminationPion(Tableau.getColonneArrivee(),Tableau.getLigneArrivee(),2);
 
             }
             break;
