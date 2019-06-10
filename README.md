@@ -11,7 +11,7 @@ Nous y avons crée une ambiance assez mystérieuse mais détendu, cela semblait 
 ![Screenshot](Screenshot/Game.png)
 
 # Usage
-Pour jouer à cette version d'Ataxx, je vous recommande vivement de le lancer sous CLion de JetBrain avec les configurations suivantes:
+Pour jouer à cette version d'Ataxx, je vous recommande vivement de le lancer sous CLion de JetBrain avec Xming(pour l'affichage graphique) avec les configurations suivantes:
 ![Screenshot](Screenshot/Configuration.png)
 Pour y accéder: Run/Edit Configurations
 Il faut savoir qu'une version graphique et terminal ont été réalisés. Celle-ci peuvent être jouée indépendamment grâce à l'argument "--graphicmode" ou "--terminalmode" (respectivement la version graphique et version terminal) qui peuvent être modifié comme sur l'image précédente.
